@@ -23,7 +23,7 @@ main {
 }
 
 .row {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -31,26 +31,37 @@ main {
 .card {
   display: inline-block;
   background-color: white;
-  height: 140px; min-width: 100px; width: calc((100% / 4) - 20px );
+  min-width: 100px; width: 20%;
   margin: 0 1%;
   padding-top: 5px;
   border: 1px solid black;
   border-radius: 10px;
+  text-align: center;
+  padding-bottom: 20px;
   background-image: url(../img/pattern.png);
   background-size: contain;
+  -webkit-box-shadow: 5px 5px 7px -6px #000000;
+  box-shadow: 5px 5px 7px -6px #000000;
 }
 
-#fissa {background-image: none;}
+/* regole contenuto card (img + p) */
+.card>img{
+  width: 100%;
+  visibility: hidden;
+}
 
-.card:hover {background-image: none;}
-
-p {
+.card>p {
   color: #e61986;
   text-shadow: 1px 1px 0px #818181;
+  visibility: hidden;
 }
 
-p:hover {color: #cf7b31;}
+#fissa>img, #fissa>p {visibility: visible;}
 
-.ball {
-  height: 70%;
+
+.card:hover,#fissa {background-image: none;
 }
+
+.card>p:hover {color: #cf7b31;}
+
+.card:hover * {visibility: visible;}
