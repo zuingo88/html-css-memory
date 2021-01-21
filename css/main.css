@@ -2,10 +2,11 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
   font-family: 'Nerko One', cursive;
 }
 
-body {background-color: #7FE6EB;}
+body {background-color: #add8e6;;}
 
 
 /* titolo */
@@ -13,7 +14,7 @@ h1 {
   text-align: center;
   font-size: 60px;
   color: white;
-  text-shadow: 2px 2px 0px #818181;;
+  text-shadow: 2px 2px 0px #818181;
 }
 
 /* regole area di gioco */
@@ -26,10 +27,23 @@ main {
   text-align: center;
 }
 
+/* regole card */
 .card {
   display: inline-block;
-  background-color: blue;
-  height: 140px; min-width: 100px; max-width: calc((100% / 4) - 20px );
-  margin: 1%;
+  background-color: white;
+  height: 140px; min-width: 100px; width: calc((100% / 4) - 20px );
+  margin: 0 1%;
+  padding-top: 5px;
   border-radius: 10px;
+}
+
+p {
+  color: #e61986;
+  text-shadow: 1px 1px 0px #818181;
+}
+
+p:hover {color: #cf7b31;}
+
+.ball {
+  height: 70%;
 }
