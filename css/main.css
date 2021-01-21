@@ -12,7 +12,19 @@ h1 {
   text-shadow: 2px 2px 0px #818181;;
 }
 
+/* regole area di gioco */
 main {
   margin: 50px 15%;
   position: relative;
+}
+
+.row {
+  position: relative;
+}
+
+.card {
+  display: inline-block;
+  background-color: blue;
+  height: 130px;
+  width: 20%;
 }
