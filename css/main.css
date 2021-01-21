@@ -34,8 +34,15 @@ main {
   height: 140px; min-width: 100px; width: calc((100% / 4) - 20px );
   margin: 0 1%;
   padding-top: 5px;
+  border: 1px solid black;
   border-radius: 10px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
 }
+
+#fissa {background-image: none;}
+
+.card:hover {background-image: none;}
 
 p {
   color: #e61986;
