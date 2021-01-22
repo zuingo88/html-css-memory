@@ -6,9 +6,14 @@
   font-family: 'Nerko One', cursive;
 }
 
-body {background-color: #add8e6;;}
+body {
+  background-color: #add8e6;
+  padding: 30px 20%;
+}
 
-/* titolo */
+/* header */
+header {padding-bottom: 30px;}
+
 h1 {
   text-align: center;
   font-size: 60px;
@@ -17,7 +22,7 @@ h1 {
 }
 
 /* regole area di gioco */
-main {margin: 30px 20%;}
+main
 
 .row {
   margin-bottom: 20px;
@@ -28,7 +33,7 @@ main {margin: 30px 20%;}
 .card {
   display: inline-block;
   background-color: white;
-  min-width: 100px; width: 20%;
+  min-width: 110px; width: 20%;
   margin: 0 1%;
   padding: 15px 0;
   border: 1px solid black;
@@ -46,7 +51,7 @@ main {margin: 30px 20%;}
 
 .card>p {
   color: #e61986;
-  font-size: 26px;
+  font-size: 22px;
   text-shadow: 1px 1px 0px #818181;
 }
 
