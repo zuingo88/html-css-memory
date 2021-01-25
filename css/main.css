@@ -12,18 +12,18 @@ body {
 }
 
 /* header */
-header {padding-bottom: 30px;}
+header {
+  padding-bottom: 30px;
+}
 
 h1 {
   text-align: center;
   font-size: 60px;
   color: white;
-  text-shadow: 2px 2px 8px #000000;;
+  text-shadow: 2px 2px 8px #000000;
 }
 
 /* regole area di gioco */
-main
-
 .row {
   margin-bottom: 20px;
   text-align: center;
@@ -46,25 +46,37 @@ main
 }
 
 /* regole contenuto card (img + p) */
-.card>img{
+.card > img {
   width: 100%;}
 
-.card>p {
+.card > p {
   color: #e61986;
   font-size: 22px;
   text-shadow: 1px 1px 0px #818181;
 }
 
-.card>* {visibility: hidden;}
+.card > * {
+  visibility: hidden;
+}
 
-#fissa>* {visibility: visible;}
+#fissa > * {
+  visibility: visible;
+}
 
 /* regole contenuto card:hover (img + p) */
-.card:hover,#fissa {background-image: none;}
+.card:hover, #fissa {
+  background-image: none;
+}
 
-.card>p:hover {color: #cf7b31;}
+.card >p:hover {
+  color: #cf7b31;
+}
 
-.card:hover * {visibility: visible;}
+.card:hover * {
+  visibility: visible;
+}
 
 /* footer */
-footer {text-align: center}
+footer {
+  text-align: center
+}
